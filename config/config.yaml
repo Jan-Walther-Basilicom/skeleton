@@ -137,3 +137,6 @@ framework:
 #         name: ''
 #         email: ''
 
+scheb_two_factor:
+    google:
+        issuer: "%router.request_context.host%"
