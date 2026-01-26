@@ -131,6 +131,10 @@ framework:
 #     default_url_prefix: 'https://my-host.com' # default prefix for your static assets
 #     use_specific: false # set true to use the following options for newsletter delivery
 #     sender:
+
+scheb_two_factor:
+  google:
+    issuer: "%router.request_context.host%"
 #         name: ''
 #         email: ''
 #     return:
